@@ -1,6 +1,14 @@
 ---
 title: "Hello World!"
 date: 2024-09-05
+description: Character Equipment
+menu:
+  sidebar:
+    name: Hello World
+    identifier: hello world
+    parent: Misc
+    weight: 10
+categories: ["Misc"]
 authors:
   - name: sepffuzzball
     link: https://github.com/sepffuzzball

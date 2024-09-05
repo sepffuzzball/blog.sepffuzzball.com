@@ -1,0 +1,33 @@
+# section information
+section:
+  name: References
+  id: references
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Sepfy - 2021 Character Sheet
+  image: /images/references/sepfy.png
+  summary: Sepfy - 2021 Character Sheet
+- title: Lichfang - Demon Slayer
+  image: /images/references/lichfang.png
+  summary: Lichfang - Demon Slayer
+- title: Firefeathers - Gryphon Attack
+  image: /images/references/firefeathers.png
+  summary: Firefeathers - Gryphon Attack
+- title: Zorryn - Zero G
+  image: /images/references/zorryn.png
+  summary: Zorryn - Zero G
+- title: Rezenfurd - Saber
+  image: /images/references/rezenfurd.png
+  summary: Rezenfurd - Saber
+- title: CharlieNax - RPG Portrait
+  image: /images/references/charlienax.png
+  summary: CharlieNax - RPG Portrait
+- title: SneakyGnida - Dungeon Crawler
+  image: /images/references/sneaky.png
+  summary: SneakyGnida - Dungeon Crawler
