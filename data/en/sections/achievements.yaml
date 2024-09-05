@@ -1,7 +1,7 @@
 # section information
 section:
-  name: References
-  id: references
+  name: Achievements
+  id: achievements
   enable: true
   weight: 1
   showOnNavbar: true
