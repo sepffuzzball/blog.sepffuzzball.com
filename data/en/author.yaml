@@ -1,0 +1,23 @@
+# some information about you
+name: "Sepfy"
+nickname: "Sepfy"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hello there, I am Sepfy"
+image: "images/sepfy.gif"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "sepfy@sepffuzzball.com"
+  github: sepffuzzball
+  telegram: sepfy
+  #researchgate: john-doe
+
+# some summary about what you do
+summary:
+  - I do home automation and devops
+  - I am a furry
+  - I love music, Beat Saber, VR, and D&D
+  - I am perpetually busy
+  - I love food
+  - I am a folf
+  - Scroll down to view more art and other things!
+  - I am a geek

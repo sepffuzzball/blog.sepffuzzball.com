@@ -1,0 +1,36 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Stealth
+  logo: /images/skills/stealth.png
+  summary: "Sepfy is fantastic at sneaking, having mastered the art of walking silently with great awareness of his surroundings."
+
+- name: Sleight of Hand
+  logo: /images/skills/sleight.png
+  summary: "Growing up on the streets and making a living as a young thief, Sepfy’s paws are quite dextrous."
+
+- name: Vehicle Use
+  logo: /images/skills/vehicle.png
+  summary: "Sepfy is skilled with tool and vehicles use, having lucked his way into learning how to drive and pilot things others haven’t."
+
+- name: Conjuration Spells
+  logo: /images/skills/conjuration.png
+  summary: "Sepfy’s signature spells are all conjuration-based, consisting of mostly Misty Step and his signature attack, Steel Wind Strike."
+
+- name: Abjuration Spells
+  logo: /images/skills/abjuration.png
+  summary: "Abjuration spells like Shield and Dispel Magic are typical in my repertoire."
+
+- name: Illusion Spells
+  logo: /images/skills/illusion.png
+  summary: "Illusion spells like Minor Illusion and Mirror Image are some of my favorites"

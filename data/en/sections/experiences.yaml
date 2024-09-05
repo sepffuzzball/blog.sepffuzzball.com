@@ -1,0 +1,33 @@
+section:
+  name: Experience
+  id: experiences 
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+experiences:
+- company:
+    name: Adult, Arcane Trickster | Bladesinger
+    location: Wherever the wind blows
+    overview: After graduation and a bit of an internal coup inside of the Assassin’s guild, Sepfy is forced to flee, wanted by both the new leadership of the guild as well as most local authorities. It is at this point that his true adventure begins, heading off into the wilds to seek his fortune.
+  positions:
+  - designation: Adventurer
+    start: 17
+- company:
+    name: Teen, Arcane Assassin
+    location: Undisclosed location
+    overview: After a harrowing encounter with a vampiric entity, Sepfy was taken in by a wandering assassin who took him under his wing for training. After a year, he was sent off to a secret academy as his initial guardian died. Sepfy is ostrasized by the others that have been training for their entire lives, versus his relatively new start though he’s able to at least keep up.
+  positions:
+  - designation: Assassin-in-training
+    start: 12
+    end: 17
+- company:
+    name: Kid, Rogue | Mage Adept
+    location: The Streets
+    overview: As a kid he was abandoned to the streets where he fell into some hard times, scrimping and stealing (among other things) to survive. This is where he learned many of the skills that he still finds useful today, in addition to his tendencies toward magical-item acquisitions.
+  positions:
+  - designation: Wandering Urchin
+    start: 7
+    end: 12
