@@ -2,7 +2,7 @@ section:
   name: About # Title of section (default: "")
   id: about # url id/slug of section *Required*
   enable: true # Boolean to determine if this section is enabled (default: false)
-  weight: 1 # Order to display section in (default: alphabetical followed by weight)
+  weight: 2 # Order to display section in (default: alphabetical followed by weight)
   showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
   template: sections/about.html # allows you to point to a specific template.
 
@@ -13,7 +13,7 @@ company:
   name: Fuzzball Enterprises
   url: "https://fuzzball.enterprises"
 
-summary: 'He prefers to be called a magical item connoisseur - but he’ll settle for treasure hunter or collector, though he’ll smirk if someone calls him a rogue or a thief. He’s much more than that, though at a glance of his black cloak and light, almost gothic and girlish attire that he certainly looks the part. But one might then miss that arcane spark, that exciteable energy that he’s a natural at…at least for someone who didn’t study.<br> He can be typically found wandering about, in search of the next adventure…whether that’s a dungeon to pilfer, a noble to rob, or a quick fling in the alleys of the red-light district, this folf is always busy and always on the move.'
+summary: 'He prefers to be called a magical item connoisseur - but he’ll settle for treasure hunter or collector, though he’ll smirk if someone calls him a rogue or a thief. He’s much more than that, though at a glance of his black cloak and light, almost gothic and girlish attire that he certainly looks the part. But one might then miss that arcane spark, that exciteable energy that he’s a natural at…at least for someone who didn’t study.<p> He can be typically found wandering about, in search of the next adventure…whether that’s a dungeon to pilfer, a noble to rob, or a quick fling in the alleys of the red-light district, this folf is always busy and always on the move.'
 
 socialLinks:
 - name: Email
@@ -46,7 +46,7 @@ badges:
 - type: soft-skill-indicator
   name: Constitution
   percentage: 50
-  color: rgreened
+  color: green
 
 - type: soft-skill-indicator
   name: Intelligence

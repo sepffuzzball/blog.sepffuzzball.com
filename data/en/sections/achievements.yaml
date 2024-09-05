@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Achievements
+  name: References
   id: achievements
   enable: true
   weight: 1

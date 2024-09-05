@@ -29,7 +29,7 @@ Listing of the equipment Sepfy typically uses
 ## Cloak of Displacement
 Varying shades of black and gray with silver runic stitching on the outer lining (like in the cape below). Easily through behind his back to give his arms and legs a lot of mobility so even the shawl over (in the second pic) splits open from the front. Does not have the displacer beast appendages
 {{< img src="/posts/references/character-sheet/equipment/blendercloak.png" align="center" title="Cloak of Displacement" >}}
-{{< img src="/posts/references/character-sheet/equipment/displacercloak.png" align="center" title="Cloak of Displacement" >}}
+{{< img src="/posts/references/character-sheet/equipment/displacercloak.jpeg" align="center" title="Cloak of Displacement" >}}
 
 ## Spark, Lightning Blade
 Thin bladed one-handed sword with intricate designs. (ignore the colors on the second picture, it’s not actually meant to be pink). Scabbard held on the left-hand side for a right-handed draw (the scabbard below is just generic and wouldn’t make sense to taper back inwards at the top…the blade bulge probably shouldn’t be so prominent anyways). Lightning imbued with enchanted gemstones, it’s visibly and audibly quite flashy (technically a poor choice for a rogue so used when combat is inevitable). Only ever wielded in the right hand
@@ -66,7 +66,7 @@ They’re most often used as throwing knives/darts. Sometimes they’re actually
 Consists of a hard leather chest piece with matching bracers, kneepads, and shinguards. The leather is died black and has intricate, nearly floral silver inlays that can glow as a source of dim light and the metal is all polished silver. The main chest piece is two halves with 2 leather clasps on each of the sides as well as between the shoulders and neck with additional attachment points for his main battle harness (straps for scabbards and the like). There is a socket on the chest piece that has an inlaid gem that he uses as a focus. He doesn’t wear anything under the chest piece, thus their midsection is always exposed.
 {{< img src="/posts/references/character-sheet/equipment/blenderarmor.png" align="center" title="Leather Armor" >}}
 {{< img src="/posts/references/character-sheet/equipment/armorblender2.png" align="center" title="Leather Armor" >}}
-{{< img src="/posts/references/character-sheet/equipment/blenderarmor3.png" align="center" title="Leather Armor" >}}
+{{< img src="/posts/references/character-sheet/equipment/armorblender3.png" align="center" title="Leather Armor" >}}
 {{< img src="/posts/references/character-sheet/equipment/armorsketch.png" align="center" title="Leather Armor" >}}
 
 ## Sapphire of the War Mage
