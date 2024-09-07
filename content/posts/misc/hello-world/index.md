@@ -1,7 +1,7 @@
 ---
 title: "Hello World!"
 date: 2024-09-05
-description: Character Equipment
+description: Hiya
 menu:
   sidebar:
     name: Hello World
