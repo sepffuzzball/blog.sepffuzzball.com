@@ -20,14 +20,11 @@ jobs:
   publish:
     runs-on: docker
     container:
-      image: code.forgejo.org/oci/debian:bookworm
+      image: node:20-bookworm
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
       contents: read
       packages: write
     steps:
-      # https://stackoverflow.com/questions/70483902/how-to-actually-clean-up-the-repository-on-self-hosted-runner-after-github-actio
       - name: Cleanup build folder 🧹
         shell: bash
         run: |
@@ -35,7 +32,20 @@ jobs:
           ls -la ./
           rm -rf ./* || true
           rm -rf ./.??* || true
-          ls -la ./
+          ls -la ./          
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          install -m 0755 -d /etc/apt/keyrings
+          curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+          chmod a+r /etc/apt/keyrings/docker.asc
+          echo \
+            "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+            $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+            tee /etc/apt/sources.list.d/docker.list > /dev/null
+          apt-get update
+          apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin      
 
       - name: Checkout Repo  🛒
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
@@ -62,7 +72,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@8e5442c4ef9f78752691e2d8f8d19755c6f78e81 # v5
         with:
-          images: ghcr.io/${{ github.repository }}
+          images: forge.fuzzball.enterprises/${{ github.repository }}
           tags: |
             # set date tag for versioning and 'latest' tag
             type=raw,value={{date 'YYYY.MM.DDHHmm' tz='America/New_York'}},priority=1000
@@ -71,7 +81,7 @@ jobs:
       - name: Login to GitHub Container Registry ✅
         uses: docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567 # v3
         with:
-          registry: ghcr.io
+          registry: forge.fuzzball.enterprises
           username: ${{ github.actor }} # ${{ github.repository_owner }}
           password: ${{ secrets.GH_TOKEN }}
           # logout: false
